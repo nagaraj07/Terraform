@@ -9,7 +9,7 @@ variable "secret_key" {
 variable "privatekeypath" {}
 
 variable "key_name" {
-  default = "Ansible"
+  default = "Terraform"
 }
 
 variable "instance_type" {
@@ -17,11 +17,11 @@ variable "instance_type" {
 }
 
 variable "ami" {
-  default = "ami-7c8ead13"
+  default = "ami-7c8g5jbd13"
 }
 
 variable "vpc_id" {
-  default = "vpc-fd683695"
+  default = "vpc-fd6783695"
 }
 
 variable "region" {
