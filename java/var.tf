@@ -14,11 +14,11 @@ variable "firewall" {
   
 }
 variable "ami" {
-    default = "ami-04ea996e7a3e7ad6b"
+    default = "ami-04ennbjhj3e7ad6b"
   
 }
 variable "vpc" {
-    default = "vpc-fd683695"
+    default = "vpc-fd69795"
   
 }
 variable "private_key_path" {
