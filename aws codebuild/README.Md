@@ -16,6 +16,10 @@ phases:
 
 
 #
+
+choose ur os as ubuntu
+and i was selected java-jdk.8.0
+
 Current build specification
 Using buildspec.yml in the source code root directory
 Cancel update build specification
