@@ -7,7 +7,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "test" {
   name     = "acceptanceTestResourceGroup1"
-  location = "West US"
+  location = "${var.location}"
 }
 
 resource "azurerm_network_security_group" "murali" {
