@@ -5,7 +5,7 @@ provider "azurerm" {
    tenant_id       = "${var.tenantid}"
 }
 
-resource "azurerm_resource_group" "test" {
+resource "azurerm_resource_group" "satya" {
   name     = "acceptanceTestResourceGroup1"
   location = "${var.location}"
 }
